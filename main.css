@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.flex-conteiner {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    display: flex;
+    flex: 1;
+}
+
+@media screen and (max-width: 850px) {
+    main {
+        flex-direction: column;
+    }
+}
+    
+aside {
+    flex: 1;
+    color: aliceblue;
+    background-color: rgb(30,41,57);
+}
+
+ul {
+    list-style-type: none;
+    padding: 20px;
+}
+
+li {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+section {
+    flex: 3;
+    padding: 20px;
+    min-height: 350px;
+}
+
+.header-container {
+    background-color: rgb(243, 4, 4);
+    padding: 20px;
+}
+
+footer {
+    background-color: rgb(4, 250, 78);
+    padding: 20px;
+    height: 100px;
+}
